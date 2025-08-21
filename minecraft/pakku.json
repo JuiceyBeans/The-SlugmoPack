@@ -5,5 +5,118 @@
         "config",
         "defaultconfigs",
         "kubejs"
-    ]
+    ],
+    "projects": {
+        "asyncparticles": {
+            "side": "CLIENT"
+        },
+        "badoptimizations": {
+            "side": "CLIENT"
+        },
+        "borderless": {
+            "side": "CLIENT"
+        },
+        "configured": {
+            "side": "CLIENT"
+        },
+        "controlling": {
+            "side": "CLIENT"
+        },
+        "culllessleaves-reforged": {
+            "side": "CLIENT"
+        },
+        "ding": {
+            "side": "CLIENT"
+        },
+        "embeddium": {
+            "side": "CLIENT"
+        },
+        "emi-enchanting": {
+            "side": "CLIENT"
+        },
+        "enchantment-descriptions": {
+            "side": "CLIENT"
+        },
+        "entity-culling": {
+            "side": "CLIENT"
+        },
+        "entity-model-features": {
+            "side": "CLIENT"
+        },
+        "entity-texture-features-fabric": {
+            "side": "CLIENT"
+        },
+        "explosive-enhancement-reforged": {
+            "side": "CLIENT"
+        },
+        "extreme-sound-muffler": {
+            "side": "CLIENT"
+        },
+        "falling-leaves-forge": {
+            "side": "CLIENT"
+        },
+        "farsight": {
+            "side": "CLIENT"
+        },
+        "immediatelyfast": {
+            "side": "CLIENT"
+        },
+        "immersive-overlays": {
+            "side": "CLIENT"
+        },
+        "legendary-tabs": {
+            "side": "CLIENT"
+        },
+        "mouse-tweaks": {
+            "side": "CLIENT"
+        },
+        "nolijium": {
+            "side": "CLIENT"
+        },
+        "obsidianui": {
+            "side": "CLIENT"
+        },
+        "oculus": {
+            "side": "CLIENT"
+        },
+        "overloaded-armor-bar": {
+            "side": "CLIENT"
+        },
+        "quarkponders": {
+            "side": "CLIENT"
+        },
+        "ryoamiclights": {
+            "side": "CLIENT"
+        },
+        "simple-discord-rich-presence": {
+            "side": "CLIENT"
+        },
+        "skin-layers-3d": {
+            "side": "CLIENT"
+        },
+        "sound": {
+            "side": "CLIENT"
+        },
+        "sound-physics-remastered": {
+            "side": "CLIENT"
+        },
+        "spyglass-improvements": {
+            "side": "CLIENT"
+        },
+        "stellarview": {
+            "side": "CLIENT"
+        },
+        "tmrv": {
+            "side": "CLIENT"
+        },
+        "vanillin": {
+            "side": "CLIENT"
+        },
+        "yeetusexperimentus": {
+            "side": "CLIENT"
+        },
+        "zume": {
+            "side": "CLIENT"
+        }
+    }
 }

@@ -321,6 +321,7 @@
         {
             "pakku_id": "nTP5aAJgqjzQXEJ7",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "asyncparticles"
             },
@@ -396,6 +397,7 @@
         {
             "pakku_id": "sFuLecpuIHJO5a7f",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "badoptimizations"
             },
@@ -743,6 +745,7 @@
         {
             "pakku_id": "RJldeM4CdZwSQ2mT",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "borderless"
             },
@@ -1363,6 +1366,7 @@
         {
             "pakku_id": "RTJ7kReqgM6oIWcW",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "configured"
             },
@@ -1436,6 +1440,7 @@
         {
             "pakku_id": "B7ayKwmRlbN8eDzG",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "controlling"
             },
@@ -1773,6 +1778,7 @@
         {
             "pakku_id": "p1w1rbQvlSeBBDBC",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "culllessleaves-reforged"
             },
@@ -2045,6 +2051,7 @@
                 "mlGrWlcF1wXWxV0Z"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "ding"
             },
@@ -2161,6 +2168,7 @@
         {
             "pakku_id": "3MtNGglcExqkirgS",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "dungeon-now-loading"
             },
@@ -2233,6 +2241,7 @@
         {
             "pakku_id": "3o5qpKwUf23C1nu3",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "emi-enchanting"
             },
@@ -2433,6 +2442,7 @@
         {
             "pakku_id": "tQRhntLtV8Il0UGt",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "embeddium"
             },
@@ -2470,6 +2480,7 @@
         {
             "pakku_id": "Qz9OSS0U2pP0qN5E",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "enchantment-descriptions"
             },
@@ -2672,6 +2683,7 @@
         {
             "pakku_id": "rPKc2BniJfWXNpXD",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "explosive-enhancement-reforged"
             },
@@ -2745,6 +2757,7 @@
         {
             "pakku_id": "8GtQmqxfnMgCZRsX",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "extreme-sound-muffler"
             },
@@ -3034,6 +3047,7 @@
         {
             "pakku_id": "lZU1wpmXTbuQkapN",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "falling-leaves-forge"
             },
@@ -3147,6 +3161,7 @@
                 "7o4vHcOFwTNLXN3r"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "farsight"
             },
@@ -3776,6 +3791,7 @@
         {
             "pakku_id": "OYRKdmqSQS3rHORg",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "immediatelyfast"
             },
@@ -3816,6 +3832,7 @@
         {
             "pakku_id": "zNlqMmu7mjYL9TuW",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "immersive-overlays"
             },
@@ -4498,6 +4515,7 @@
         {
             "pakku_id": "XJzoEulxr974bGLI",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "legendary-tabs"
             },
@@ -4952,6 +4970,7 @@
         {
             "pakku_id": "yUgC7L5gEPAg1ZXk",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "mouse-tweaks"
             },
@@ -5217,6 +5236,7 @@
         {
             "pakku_id": "oxUAwLrsEiEv3CW2",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "nolijium"
             },
@@ -5255,6 +5275,7 @@
         {
             "pakku_id": "EEVewAZLEieFORGc",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "obsidianui"
             },
@@ -5328,6 +5349,7 @@
         {
             "pakku_id": "Q7u9fAF0wL1E4cHZ",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "oculus"
             },
@@ -5365,6 +5387,7 @@
         {
             "pakku_id": "uQj1IF2Dvy4K3Jg3",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "overloaded-armor-bar"
             },
@@ -5742,6 +5765,7 @@
         {
             "pakku_id": "gPEPwfDnesx3kNS2",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "quarkponders"
             },
@@ -5923,6 +5947,7 @@
         {
             "pakku_id": "lu0gWQBU73pxMSQ3",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "ryoamiclights"
             },
@@ -6192,6 +6217,7 @@
                 "Yp74Zi99hfdZUhg9"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "simple-discord-rich-presence"
             },
@@ -6270,6 +6296,7 @@
         {
             "pakku_id": "cCZ2pqX9Pzb1Y27x",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "skin-layers-3d"
             },
@@ -6469,6 +6496,7 @@
         {
             "pakku_id": "YP9Vg2Lrmtf0XAye",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sound-physics-remastered"
             },
@@ -6505,6 +6533,7 @@
         {
             "pakku_id": "VyKHPcwsK49Vikng",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sound"
             },
@@ -6663,6 +6692,7 @@
         {
             "pakku_id": "1e8SptDxVr6QKihK",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "spyglass-improvements"
             },
@@ -6736,6 +6766,7 @@
         {
             "pakku_id": "YaTXBHZTjruUMgF9",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "stellarview"
             },
@@ -6972,6 +7003,7 @@
         {
             "pakku_id": "gX7AIVPDRyCArZAy",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "tmrv"
             },
@@ -7199,6 +7231,7 @@
         {
             "pakku_id": "FyELjiXRflW9K2s8",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "vanillin"
             },
@@ -7739,6 +7772,7 @@
         {
             "pakku_id": "odYm9CFgJ3bhWxvM",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "yeetusexperimentus"
             },
@@ -7886,6 +7920,7 @@
         {
             "pakku_id": "P7mAMWTHWfiAvwcM",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entity-model-features"
             },
@@ -7926,6 +7961,7 @@
         {
             "pakku_id": "yvo3vohMDYcYC7SU",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entity-texture-features-fabric"
             },
