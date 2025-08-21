@@ -14,6 +14,7 @@ SlugmoPack.code-workspace
 !minecraft/pakku.json
 !minecraft/pakku-lock.json
 
+minecraft/.pakku/docs
 minecraft/config/alexscaves_biome_generation*
 minecraft/config/sound_physics_remastered*
 minecraft/config/bettercombat*
