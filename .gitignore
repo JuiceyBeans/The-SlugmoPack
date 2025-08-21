@@ -10,6 +10,9 @@ SlugmoPack.code-workspace
 !minecraft/options.txt
 !minecraft/config/emi.json
 !minecraft/config/icon.png
+!minecraft/.pakku*
+!minecraft/pakku.json
+!minecraft/pakku-lock.json
 
 minecraft/config/alexscaves_biome_generation*
 minecraft/config/sound_physics_remastered*
@@ -23,9 +26,10 @@ minecraft/config/ichunutil*
 minecraft/config/NoChatReports*
 minecraft/config/simplyswords_extra*
 minecraft/config/simplyswords_main*
+minecraft/config/spark/tmp*
 minecraft/config/voicechat*
-minecraft/resourcepacks*
-minecraft/options.txt
 minecraft/config/jei*
 minecraft/config/emi.css
 minecraft/config/oculus.properties
+minecraft/resourcepacks*
+minecraft/options.txt
