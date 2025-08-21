@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flora__fauna"
+	group: "6C85ACB8FCC441D9"
+	icon: "minecraft:sniffer_egg"
+	id: "3DC657B62EC05488"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Obtained by feeding &cTiger Sharks&r"]
+			id: "3785B49067326876"
+			tasks: [{
+				id: "504FC4394093A172"
+				item: "benssharks:shark_tooth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["Dropped by &cMegalodons&r when they kill a &cGreat Axodile&r"]
+			id: "3804584E3EE80034"
+			tasks: [{
+				id: "7BF769E14FF1EC56"
+				item: "benssharks:megalodon_tooth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Hitting mobs with it inflicts the Parasite effect"]
+			id: "203E242C343147E0"
+			tasks: [{
+				id: "33F8C1D860375D2D"
+				item: "benssharks:cookiecutter_shark_live"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Nurse Sharks and Leopard Sharks can be tamed, and provide the Regeneration effect to their owner on contact"]
+			id: "384B35F86F34ADC1"
+			tasks: [{
+				id: "10176335B0A7C59A"
+				item: "benssharks:leopard_shark_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			description: ["Dropped by Remoras. Also dropped by Lemon Sharks when fed"]
+			id: "7418F0F903B486F7"
+			tasks: [{
+				id: "5DED6A528C447808"
+				item: "benssharks:sucker"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: ["Dropped by Greenland Sharks when fed"]
+			id: "58BDF7ED3A4FCD22"
+			tasks: [{
+				id: "48595CC7B0BFD233"
+				item: "minecraft:tide_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "577AE0B3F94FFDC6"
+			tasks: [{
+				id: "0F56336A8EFC5FA2"
+				item: "benssharks:krill_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Aggressive towards mobs wearing shiny/metallic armor"]
+			id: "04B17401D2DD1207"
+			tasks: [{
+				id: "3B0F0AAB9BA81066"
+				item: "benssharks:raw_barracuda"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			description: ["Dropped by Thalassolagers"]
+			id: "342276121F49943B"
+			tasks: [
+				{
+					id: "5B980B5C962E9FF4"
+					item: "benssharks:maelstrom"
+					type: "item"
+				}
+				{
+					entity: "benssharks:thalassoger"
+					id: "2C6E55ACB0A5793A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Flora \\& Fauna"
+}

@@ -1,0 +1,5 @@
+
+[logbegone]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Unknown sound in allowed sound config ", "Could not apply radiation glow layer to ", "Failed to add slimed layer to entity: "]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Unknown sound in allowed sound config ", "Could not apply radiation glow layer to ", "Failed to add slimed layer to entity: "]
+

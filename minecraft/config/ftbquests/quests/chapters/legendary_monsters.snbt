@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "legendary_monsters"
+	group: "1B29DA3D569DAB10"
+	icon: "legendary_monsters:knight_summoner"
+	id: "7640D6A06B6309C5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "146AA1E418C0F6B9"
+		tasks: [{
+			entity: "legendary_monsters:ancient_guardian"
+			icon: "legendary_monsters:eye_of_many_ribs"
+			id: "56E79E0DB554F440"
+			title: "Slay the Ancient Guardian."
+			type: "kill"
+			value: 1L
+		}]
+		x: -3.5d
+		y: -1.5d
+	}]
+	title: "Legendary Monsters"
+}

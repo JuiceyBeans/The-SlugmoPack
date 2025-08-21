@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "todo"
+	group: ""
+	icon: "bic_clipboard:clipboard"
+	id: "7F8FDA24BEF1103B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Dev To-Do"
+}

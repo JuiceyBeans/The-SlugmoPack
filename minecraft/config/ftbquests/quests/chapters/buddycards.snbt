@@ -1,0 +1,586 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "buddycards"
+	group: "1B29DA3D569DAB10"
+	icon: "buddycards:buddycard_pack_base"
+	id: "2544D8CCED08E53D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Buddysteel packs can be found in loot chests!"
+				""
+				"There are 36 cards in the Overworld set, and 27 cards in the Nether \\& End sets"
+				""
+				"Each card comes in a rare &cfoil&r version! Foil cards are distinguished by having an enchantment glint"
+			]
+			id: "09C0993ABB955A60"
+			rewards: [
+				{
+					id: "539690B7450A1644"
+					item: "buddycards:buddycard_binder_base"
+					type: "item"
+				}
+				{
+					id: "40948CF6E0C7CB43"
+					item: "buddycards:buddycard_booster_box_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "703515B2388037C0"
+				item: "buddycards:buddycard_pack_base"
+				type: "item"
+			}]
+			title: "Buddycards!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09C0993ABB955A60"]
+			hide_until_deps_complete: true
+			id: "385D2F2901E4FEE3"
+			rewards: [
+				{
+					id: "47BEB6B39EE4E5A0"
+					item: "buddycards:buddysteel_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A0155081074996E"
+					item: "buddycards:buddycard_pack_mystery"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D9DDE9B1915CA07"
+				item: "buddycards:buddysteel_ingot"
+				type: "item"
+			}]
+			title: "Buddysteel Ingots!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09C0993ABB955A60"]
+			description: [
+				"Cards 1-12: Common"
+				"&eCards 13-21: Uncommon&r"
+				"&bCards 22-25: Rare&r"
+				"&5Cards 26 \\& 27: Epic&r"
+				""
+				"&nOverworld Set Cards:&r"
+				"Cards 28-31: Common"
+				"&eCards 32-34: Uncommon&r"
+				"&bCards 35 \\& 36: Rare&r"
+			]
+			icon: "buddycards:buddycard_end27"
+			id: "4DECED0D581DCC51"
+			optional: true
+			rewards: [{
+				id: "3D405011A2FE1305"
+				item: "buddycards:buddycard_pack_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53FC4A62F5F254C8"
+				title: "Complete Quest"
+				type: "checkmark"
+			}]
+			title: "Card Rarities!"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09C0993ABB955A60"]
+			description: [
+				"Mystery packs contain 4 cards of any random set!"
+				""
+				"Of these 4 cards, 1 card is always guaranteed to be &cshiny&r!"
+			]
+			id: "3FF3253857E1F971"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3CEE2BCFADFFF9A2"
+				item: "buddycards:buddycard_pack_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56A26144D3632737"
+				item: "buddycards:buddycard_pack_mystery"
+				type: "item"
+			}]
+			title: "Mystery Packs!"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["385D2F2901E4FEE3"]
+			description: [""]
+			id: "7D5D0ECE932627AB"
+			ignore_reward_blocking: true
+			rewards: [{
+				count: 4
+				id: "35D7D4251C120C11"
+				item: "buddycards:buddycard_pack_mystery"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "001E5A96053B7FF5"
+					item: {
+						Count: 1
+						id: "buddycards:buddysteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "471A4172F25261F5"
+					item: {
+						Count: 1
+						id: "buddycards:buddysteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3557818893C4F8F6"
+					item: {
+						Count: 1
+						id: "buddycards:buddysteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C0B86E9F94DEF89"
+					item: {
+						Count: 1
+						id: "buddycards:buddysteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Buddysteel Armor \\& Tools!"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["385D2F2901E4FEE3"]
+			description: [
+				"Collecting all 27 cards (shiny and normal) earns you a medal! This medal gives you a permanent speed, fire resistance, or resistance buff, depending on the set you gained it from."
+				""
+				"The effects of these medals can be boosted by using the &dBuddy Boost&r enchantment"
+			]
+			id: "0F62371ED696DC0F"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "35654F5E4AE1DE8E"
+				item: "buddycards:buddycard_booster_box_mystery"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F4CED82149EBD40"
+					item: "buddycards:blank_buddysteel_medal"
+					type: "item"
+				}
+				{
+					id: "4DD9F7129DB9FB19"
+					item: "buddycards:blank_luminis_medal"
+					type: "item"
+				}
+				{
+					id: "38D8C85BA070F9CB"
+					item: "buddycards:blank_zylex_medal"
+					type: "item"
+				}
+			]
+			title: "Medals!"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09C0993ABB955A60"]
+			description: ["&cLuminis Crystals&r can be obtained from Luminis Ore, which generates deep in the world, often in or near lava pools"]
+			hide_until_deps_complete: true
+			id: "69B9C77ABFAD6B60"
+			rewards: [{
+				count: 2
+				id: "1C3B6EC7474ED0A0"
+				item: "buddycards:buddycard_pack_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7532E529E5D52013"
+				item: "buddycards:luminis"
+				type: "item"
+			}]
+			title: "Luminis!"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["798544D2D054F35E"]
+			description: ["&6Luminis Sleeves&r can convert any card to its &cfoil&r equivalent! This can be useful if you're struggling to complete your &cfoil&r sets for the &6medals&r."]
+			id: "5485D951C5A46826"
+			optional: true
+			tasks: [{
+				id: "6DBC99904C77E193"
+				item: "buddycards:luminis_sleeve"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09C0993ABB955A60"]
+			description: [
+				"Cards can be graded using a sleeve! You can have increase your chances of getting a higher grade on your card by using a &6Golden&r or &dZylex Grading Sleeve&r!"
+				""
+				"Grading serves no gameplay purpose and is purely for bragging rights."
+			]
+			id: "4F886EDDE63BC159"
+			optional: true
+			rewards: [{
+				id: "3EEBA9E27FB16B92"
+				item: "buddycards:golden_grading_sleeve"
+				type: "item"
+			}]
+			tasks: [{
+				id: "190A24CE5EEA79B5"
+				item: "buddycards:grading_sleeve"
+				type: "item"
+			}]
+			title: "Grading Cards!"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["798544D2D054F35E"]
+			id: "54744315D965D13E"
+			optional: true
+			tasks: [{
+				id: "4C58ECFE4F4D6ACA"
+				item: {
+					Count: 1
+					id: "buddycards:luminis_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09C0993ABB955A60"]
+			description: [
+				"&dZylex&r can be obtained by trading cards with &5Enderlings&r! "
+				""
+				"&5Enderlings&r often spawn with Endermen, and are usually looking for a specific card to complete their sets. You might wanna hold onto your duplicates..."
+				""
+				"Additionally, you can trade &dZylex&r and &dVoid Zylex&r with &5Enderlings&r in return for other &6precious loot&r as well!"
+				"{@pagebreak}"
+				"The number of &dZylex nuggets&r you get from trading is determined by the rarity, grade, and foil of the card."
+				""
+				"Trading &6graded cards&r nets you a significantly larger amount of &dZylex&r."
+				""
+				"Just be careful trading any &7Grade F&r cards... They may perceive it as an insult instead."
+			]
+			hide_until_deps_complete: true
+			id: "2D4A8D5426A489BB"
+			rewards: [{
+				count: 2
+				id: "225BE6A7C5FE9741"
+				item: "buddycards:buddycard_pack_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7334131A5A94E643"
+				item: "buddycards:zylex"
+				type: "item"
+			}]
+			title: "Zylex!"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69C5425C97B0D663"]
+			id: "798544D2D054F35E"
+			optional: true
+			rewards: [{
+				id: "6BC94DD1CF1B93F3"
+				item: "buddycards:buddycard_booster_box_nether"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F3673757A2A7129"
+				item: "buddycards:kinetic_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["798544D2D054F35E"]
+			id: "439C93E92393F33E"
+			optional: true
+			tasks: [{
+				id: "3A4F7F28DF4DD3D1"
+				item: "buddycards:luminis_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2D4A8D5426A489BB"
+				"69B9C77ABFAD6B60"
+				"385D2F2901E4FEE3"
+			]
+			hide_until_deps_complete: true
+			id: "3FE4AF2E30D4DC90"
+			rewards: [{
+				id: "6E81971A3A469F81"
+				item: "buddycards:buddycard_booster_box_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6272483E4148CA"
+				item: "buddycards:buddysteel_charger"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69B9C77ABFAD6B60"]
+			hide_until_deps_complete: true
+			id: "69C5425C97B0D663"
+			rewards: [{
+				id: "5247E4D9E40598CF"
+				item: "buddycards:buddycard_pack_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BA6DDD5566C2CFE"
+				item: "buddycards:crimson_luminis"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FE4AF2E30D4DC90"]
+			id: "5E562D771765004B"
+			rewards: [{
+				id: "270691E4FDCE874A"
+				item: "buddycards:buddycard_booster_box_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4201B5A4A2B15AB7"
+				item: "buddycards:charged_buddysteel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5E562D771765004B"
+				"69C5425C97B0D663"
+			]
+			id: "4B3338B68A89710E"
+			rewards: [{
+				id: "1105D1C2E8065590"
+				item: "buddycards:buddycard_booster_box_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DF12691A0E57E30"
+				item: "buddycards:crimson_buddysteel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5E562D771765004B"
+				"41BD26073F704D5E"
+			]
+			id: "772A6284887C784E"
+			rewards: [{
+				id: "1753F7CB7E3A2302"
+				item: "buddycards:buddycard_booster_box_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58AF9674791EF231"
+				item: "buddycards:void_buddysteel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4B3338B68A89710E"
+				"772A6284887C784E"
+			]
+			id: "1C6C95931EE6EC98"
+			rewards: [{
+				id: "0FF975C5ED9DCA72"
+				item: "buddycards:buddycard_booster_box_mystery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69ED7098530BB061"
+				item: "buddycards:perfect_buddysteel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C6C95931EE6EC98"]
+			id: "479F08503267CC87"
+			rewards: [
+				{
+					count: 4
+					id: "72213AD4201C4B97"
+					item: "buddycards:buddycard_booster_box_mystery"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08F222DD9FFC1830"
+					item: "buddycards:buddycard_pack_mystery"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B1C5C1E8C864965"
+				item: "buddycards:true_perfect_buddysteel_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41BD26073F704D5E"]
+			id: "4D515175D979DEDF"
+			optional: true
+			tasks: [{
+				id: "2F8DF082AF3FA82F"
+				item: {
+					Count: 1
+					id: "buddycards:zylex_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["41BD26073F704D5E"]
+			id: "7C61092BD6D7EF13"
+			optional: true
+			tasks: [{
+				id: "28B5FECDD9BBD638"
+				item: {
+					Count: 1
+					id: "buddycards:zylex_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["41BD26073F704D5E"]
+			id: "5A4EF01F632449FB"
+			optional: true
+			tasks: [{
+				id: "5466370C5BB9BA59"
+				item: "buddycards:zylex_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["798544D2D054F35E"]
+			id: "1F2DCB131724345A"
+			optional: true
+			tasks: [{
+				id: "1355155FE57F5936"
+				item: {
+					Count: 1
+					id: "buddycards:luminis_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D4A8D5426A489BB"]
+			hide_until_deps_complete: true
+			id: "41BD26073F704D5E"
+			rewards: [{
+				id: "24674C614599867E"
+				item: "buddycards:buddycard_booster_box_end"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34383AE331D4B315"
+				item: "buddycards:void_zylex"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41BD26073F704D5E"]
+			id: "24E4247E11D2E37A"
+			optional: true
+			tasks: [{
+				id: "012677E882F50E0D"
+				item: "buddycards:zylex_grading_sleeve"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+	]
+	title: "Buddycards"
+}

@@ -1,0 +1,5 @@
+#Time taken to update hatching progress in seconds (default: 180)
+hatch_progress_update = 180
+#Disable chickens spawning from thrown eggs (default: true)
+disable_thrown_egg_spawns = true
+

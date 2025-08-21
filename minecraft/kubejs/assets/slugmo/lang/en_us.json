@@ -1,0 +1,10 @@
+{
+  "enchantment.benssharks.serrated.desc": "Applies the Bleeding effect to mobs on hit.",
+  "enchantment.buddycards.buddy_boost.desc": "Boosts the buff gained from a Buddycard medal.",
+  "enchantment.buddycards.recovery.desc": "Reduces cooldown duration for the Luminis Helmet and Zylex Boots",
+  "enchantment.buddycards.extra_page.desc": "Adds an extra page to a Buddycard binder.",
+  "enchantment.celestisynth.pulsation.desc": "Has a chance to deals bonus damage and knockback on hit.",
+  "enchantment.luminous_nether.soul_cleave.desc": "All mobs drop Ghostly Essence.",
+
+  "item.knightlib.filled_grail": "Filled Grail"
+}

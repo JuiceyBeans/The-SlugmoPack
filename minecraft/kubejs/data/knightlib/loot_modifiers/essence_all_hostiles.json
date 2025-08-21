@@ -1,0 +1,6 @@
+{
+    "type": "knightlib:add_item",
+    "chance": 0.01,
+    "conditions": [],
+    "item": "knightlib:small_essence"
+  }
