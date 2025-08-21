@@ -1,2 +1,3 @@
-TheOnlyRosalyn for shaping the early stages of the pack, a lot of concepts, and extensive beta testing
-Better Combat compat for Cataclym Spellbooks, Dungeon Now Loading, Mowzie's Mobs from [Better Combat Compat](https://www.curseforge.com/minecraft/data-packs/better-combat-compat) by Cyber_Rat
+# Credits
+- TheOnlyRosalyn for shaping the early stages of the pack, a lot of concepts, and extensive beta testing
+- Better Combat compat for Cataclym Spellbooks, Dungeon Now Loading, Mowzie's Mobs from [Better Combat Compat](https://www.curseforge.com/minecraft/data-packs/better-combat-compat) by Cyber_Rat
