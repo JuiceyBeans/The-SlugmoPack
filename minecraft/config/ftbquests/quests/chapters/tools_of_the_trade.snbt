@@ -1,0 +1,513 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_of_the_trade"
+	group: "6C85ACB8FCC441D9"
+	id: "4F63D6758620955B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B6247CDAB85CF59"
+			tasks: [{
+				id: "305CC141DE7FA009"
+				item: {
+					Count: 1
+					id: "justhammers:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "7F7080E110D009B4"
+			tasks: [{
+				id: "0584E6E09DAD27AE"
+				item: {
+					Count: 1
+					id: "justhammers:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "2CD0C48E06A8AF74"
+			tasks: [{
+				id: "0EA991D0BFB75AC5"
+				item: {
+					Count: 1
+					id: "justhammers:gold_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "54C06BA69A6206E8"
+			tasks: [{
+				id: "0B707326075A6226"
+				item: {
+					Count: 1
+					id: "justhammers:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54C06BA69A6206E8"]
+			id: "686F57450FB628B3"
+			tasks: [{
+				id: "283C5CA92D6CCDFC"
+				item: {
+					Count: 1
+					id: "justhammers:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["686F57450FB628B3"]
+			id: "2601AC969943E84C"
+			tasks: [{
+				id: "30FD4760A74ECFEF"
+				item: {
+					Count: 1
+					id: "justhammers:impact_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E7461665C3C377B"]
+			id: "3B4537123D6AF14D"
+			tasks: [{
+				id: "59BC5CD76C8CBFE7"
+				item: {
+					Count: 1
+					id: "justhammers:stone_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E7461665C3C377B"]
+			id: "177C6E4BD220380A"
+			tasks: [{
+				id: "5BBAFD8DBD215B69"
+				item: {
+					Count: 1
+					id: "justhammers:iron_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E7461665C3C377B"]
+			id: "08902E8AF02B1D79"
+			tasks: [{
+				id: "14B6EE755D84806D"
+				item: {
+					Count: 1
+					id: "justhammers:diamond_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"08902E8AF02B1D79"
+				"6E7461665C3C377B"
+			]
+			id: "62A7FF844235EC89"
+			tasks: [{
+				id: "391D171062C69A40"
+				item: {
+					Count: 1
+					id: "justhammers:netherite_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2601AC969943E84C"]
+			id: "6E7461665C3C377B"
+			tasks: [{
+				id: "192ED1AC63AFC093"
+				item: {
+					Count: 1
+					id: "justhammers:reinforced_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E7461665C3C377B"]
+			id: "1CAE0940EBC7B93B"
+			tasks: [{
+				id: "38932A48CE053D92"
+				item: {
+					Count: 1
+					id: "justhammers:reinforced_impact_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1CAE0940EBC7B93B"]
+			id: "242D3A6F9A7E2CC9"
+			tasks: [{
+				id: "1728202F3E8119F9"
+				item: {
+					Count: 1
+					id: "justhammers:destructor_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4D8EC1A6D4C3A888"
+				"2601AC969943E84C"
+			]
+			id: "780AFC4856A3E805"
+			tasks: [{
+				id: "717803EF46B424DD"
+				item: {
+					Count: 1
+					id: "justhammers:netherite_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"48BC08C18FF4A401"
+				"1CAE0940EBC7B93B"
+			]
+			id: "50CD41DEB39E77B3"
+			tasks: [{
+				id: "6AAD72BC4964065A"
+				item: {
+					Count: 1
+					id: "justhammers:netherite_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"242D3A6F9A7E2CC9"
+				"764F20F399384F02"
+			]
+			id: "522546AC736BA4FB"
+			tasks: [{
+				id: "66D9B4F08952F0D8"
+				item: {
+					Count: 1
+					id: "justhammers:netherite_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E7461665C3C377B"]
+			id: "5B45EB23B37ED264"
+			tasks: [{
+				id: "764436A05616470F"
+				item: {
+					Count: 1
+					id: "justhammers:gold_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2601AC969943E84C"]
+			id: "235A7AB9D2C35670"
+			tasks: [{
+				id: "3F7765B5CE797445"
+				item: {
+					Count: 1
+					id: "justhammers:stone_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1CAE0940EBC7B93B"]
+			id: "69655C4BAC3EFB46"
+			tasks: [{
+				id: "68863330CEF6BC8B"
+				item: {
+					Count: 1
+					id: "justhammers:stone_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["242D3A6F9A7E2CC9"]
+			id: "7695EC1BD171BC00"
+			tasks: [{
+				id: "71C082AC5B4443FB"
+				item: {
+					Count: 1
+					id: "justhammers:stone_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["242D3A6F9A7E2CC9"]
+			id: "66FBAE43C2FFD57F"
+			tasks: [{
+				id: "25A9C0AC3F785223"
+				item: {
+					Count: 1
+					id: "justhammers:gold_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CAE0940EBC7B93B"]
+			id: "2629803167B4A08F"
+			tasks: [{
+				id: "64FE485EA1ABFD68"
+				item: {
+					Count: 1
+					id: "justhammers:gold_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2601AC969943E84C"]
+			id: "7ADB14AC72090686"
+			tasks: [{
+				id: "5419D9092CDD7FCD"
+				item: {
+					Count: 1
+					id: "justhammers:gold_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2601AC969943E84C"]
+			id: "64F7BF8BBB687305"
+			tasks: [{
+				id: "367EF422BE67C805"
+				item: {
+					Count: 1
+					id: "justhammers:iron_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2601AC969943E84C"]
+			id: "4D8EC1A6D4C3A888"
+			tasks: [{
+				id: "287C3F69E06521AC"
+				item: {
+					Count: 1
+					id: "justhammers:diamond_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CAE0940EBC7B93B"]
+			id: "48BC08C18FF4A401"
+			tasks: [{
+				id: "394EB9AADAE00FB4"
+				item: {
+					Count: 1
+					id: "justhammers:diamond_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["242D3A6F9A7E2CC9"]
+			id: "764F20F399384F02"
+			tasks: [{
+				id: "661CCD47DCB0AFDD"
+				item: {
+					Count: 1
+					id: "justhammers:diamond_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CAE0940EBC7B93B"]
+			id: "0C85BBD63618B0D2"
+			tasks: [{
+				id: "329853D603BBEFE6"
+				item: {
+					Count: 1
+					id: "justhammers:iron_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["242D3A6F9A7E2CC9"]
+			id: "1354BC70489D93DD"
+			tasks: [{
+				id: "505C696FE9E54221"
+				item: {
+					Count: 1
+					id: "justhammers:iron_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+	]
+	title: "Tools of the Trade"
+}
