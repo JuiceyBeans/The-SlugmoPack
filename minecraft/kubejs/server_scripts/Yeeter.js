@@ -1,4 +1,4 @@
-// priority: 999
+// priority: -999
 
 // Remove by recipe
 const recipe_id_removal = [
@@ -6,14 +6,26 @@ const recipe_id_removal = [
     'irons_spellbooks:firefly_jar',
     'minecraft:lodestone',
     'farm_and_charm:cooking_pot',
-    'candlelight:cooking_pot'
+    'candlelight:cooking_pot',
+    'companions:frog_bonanza_block'
 ]
 
 // Remove and hide items
 const remove_completely = [
     'apotheosis:inert_trident',
     'farmersdelight:cooking_pot',
-    'sereneseasons:calendar'
+    'sereneseasons:calendar',
+    'silly_oddities:tuff_stairs',
+    'quark:tuff_bricks',
+    'quark:tuff_bricks_wall',
+    'quark:tuff_bricks_slab',
+    'quark:tuff_bricks_stairs',
+    'quark:tuff_wall',
+    'quark:tuff_slab',
+    'quark:tuff_stairs',
+    'quark:polished_tuff',
+    'quark:polished_tuff_wall',
+    'quark:polished_tuff_slab'
 ]
 
 ServerEvents.recipes(event => {

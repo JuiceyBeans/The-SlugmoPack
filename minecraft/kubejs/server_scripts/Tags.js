@@ -1,47 +1,62 @@
-ServerEvents.tags('item', event => {
-    event.add('forge:straw', 'biomesoplenty:barley')
-    event.add('forge:straw', 'vintagedelight:oat')
-    event.add('forge:straw', 'biomesoplenty:sea_oats')
-    event.add('forge:salt', 'spelunkery:saltpeter')
-    event.add('forge:oat', 'vintagedelight:oat')
-    event.add('forge:oat', 'farm_and_charm:oat')
+ServerEvents.tags('item', e => {
+    e.add('forge:straw', ['biomesoplenty:barley', 'vintagedelight:oat', 'biomesoplenty:sea_oats'])
+    e.add('forge:salt', 'spelunkery:saltpeter')
+    e.add('forge:oat', ['vintagedelight:oat', 'farm_and_charm:oat'])
 
     // Seasonal crops
     function spring(item) {
-        event.add('sereneseasons:spring_crops', item)
+        e.add('sereneseasons:spring_crops', item)
     }
     function summer(item) {
-        event.add('sereneseasons:summer_crops', item)
+        e.add('sereneseasons:summer_crops', item)
     }
     function autumn(item) {
-        event.add('sereneseasons:autumn_crops', item)
+        e.add('sereneseasons:autumn_crops', item)
     }
     function winter(item) {
-        event.add('sereneseasons:winter_crops', item)
+        e.add('sereneseasons:winter_crops', item)
     }
 
     summer('legendarysurvivaloverhaul:sun_fern_seeds')
     winter('legendarysurvivaloverhaul:ice_fern_seeds')
+
+    e.add('slugmo:sturdy_stone', ['quark:sturdy_stone', 'dolt_mod_how:sturdy_deepslate'])
+    e.add('slugmo:netherite_hammers', [
+        'justhammers:netherite_hammer',
+        'justhammers:netherite_impact_hammer',
+        'justhammers:netherite_reinforced_hammer',
+        'justhammers:netherite_reinforced_impact_hammer',
+        'justhammers:netherite_reinforced_destructor'
+    ])
 })
 
-ServerEvents.tags('block', event => {
+ServerEvents.tags('block', e => {
     // Seasonal crops
     function spring(block) {
-        event.add('sereneseasons:spring_crops', block)
+        e.add('sereneseasons:spring_crops', block)
     }
     function summer(block) {
-        event.add('sereneseasons:summer_crops', block)
+        e.add('sereneseasons:summer_crops', block)
     }
     function autumn(block) {
-        event.add('sereneseasons:autumn_crops', block)
+        e.add('sereneseasons:autumn_crops', block)
     }
     function winter(block) {
-        event.add('sereneseasons:winter_crops', block)
+        e.add('sereneseasons:winter_crops', block)
     }
 
     summer('legendarysurvivaloverhaul:sun_fern_crop')
     winter('legendarysurvivaloverhaul:ice_fern_crop')
 
 
-    event.add('minecraft:mineable/axe', 'legendarysurvivaloverhaul:sewing_table')
+    e.add('minecraft:mineable/axe', 'legendarysurvivaloverhaul:sewing_table')
+    e.add('slugmo:tuff_bricks', [
+            'silly_oddities:tuff_bricks',
+            'silly_oddities:chiseled_tuff_bricks',
+            'quark:chiseled_tuff_bricks',
+            'architects_palette:tuff_bricks',
+            'architects_palette:heavy_tuff_bricks',
+            'create:cut_tuff_bricks',
+            'create:small_tuff_bricks'
+        ])
 })
