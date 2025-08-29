@@ -63,10 +63,10 @@ ItemEvents.tooltip(event => {
     loam_crop('minecraft:sweet_berries')
     clay_crop('minecraft:wheat_seeds')
     clay_crop('minecraft:bamboo')
-    sand_crop('minecraft:beetroot_seeds')
-    sand_crop('minecraft:carrot')
-    silt_crop('supplementaries:flax_seeds')
-    sand_crop('minecraft:potato')
+    sandy_crop('minecraft:beetroot_seeds')
+    sandy_crop('minecraft:carrot')
+    sandy_crop('minecraft:potato')
+    silty_crop('supplementaries:flax_seeds')
 
     // todo: lettuce, cabbage, tomato, onion, lime, barley, pomegranate, grapes,
     // oats, corn, strawberry, hops, salmonberry, cantaloupe, ghost pepper, cucumber 
