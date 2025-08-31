@@ -7,5 +7,6 @@ ServerEvents.recipes(e => {
     e.replaceInput(
         {id: 'silly_oddities:stonecutting/tuff/chiseled_tuff_bricks_from_tuff_bricks'},
         'silly_oddities:tuff_bricks',
-        ['quark:tuff_bricks', 'silly_oddities:tuff_bricks'])
+        ['quark:tuff_bricks', 'silly_oddities:tuff_bricks']
+    )
 })
