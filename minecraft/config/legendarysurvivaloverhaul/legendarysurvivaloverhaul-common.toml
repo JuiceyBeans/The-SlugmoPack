@@ -505,95 +505,6 @@
 	#Range: 0 ~ 100000
 	"Painkiller Addiction Duration" = 3600
 
-	[body-damage.healing-items]
-
-		[body-damage.healing-items.first-aid-supplies]
-			# The First Aid Supplies regenerate limb health passively, either by holding it or using Curios mod, the most damaged limb first.
-			#Range: 0.0 ~ 1000.0
-			"First Aid Supplies Limb Health Regenerated" = 0.25
-			# How a player's limb health regenerated is defined. Accepted values are as follows:
-			#   SIMPLE - The limb health regenerated is a fixed value defined in First Aid Supplies Limb Health Regenerated.
-			#   PLAYER_DYNAMIC - The limb health regenerated is a percentage value of the player max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
-			#   LIMB_DYNAMIC - The limb health regenerated is a percentage value of the limb max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
-			# Any other value will default to SIMPLE.
-			"First Aid Supplies Limb Regeneration Mode" = "LIMB_DYNAMIC"
-			# Whether the exceeded limb health regenerated will heal the next most damaged limb.
-			# Only available for Regeneration Mode SIMPLE or PLAYER_DYNAMIC.
-			"First Aid Supplies Healing Overflow" = false
-			# How fast in ticks the First Aid Supplies will heal limbs. 20 ticks = 1s
-			#Range: 0 ~ 10000
-			"First Aid Supplies Tick Timer" = 300
-			# Whether the First Aid Supplies exhaust food when healing limbs, such as the other healing items.
-			"First Aid Supplies Exhausts Food" = true
-			# The First Aid Supplies will heal limbs faster when the player is under one of the mentioned effect.
-			"First Aid Supplies Boosted On Effects" = ["minecraft:regeneration", "farmersdelight:comfort"]
-			# How much the First Aid Supplies tick timer is multiplied when boosted. 
-			# A value of 1 would deactivate the speed boost. 0.5 makes the heal twice faster.
-			#Range: 0.1 ~ 1.0
-			"First Aid Supplies Tick Timer Multiplier" = 0.75
-
-		[body-damage.healing-items.healing-herbs]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Healing Herbs Use Time" = 20
-			# Regeneration effect amplifier.
-			#Range: 0 ~ 10
-			"Healing Herbs Regeneration Amplifier" = 0
-			# Regeneration effect duration in ticks.
-			#Range: 0 ~ 10000
-			"Healing Herbs Regeneration Duration" = 60
-
-		[body-damage.healing-items.plaster]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Plaster Use Time" = 20
-			# Regeneration effect amplifier.
-			#Range: 0 ~ 10
-			"Plaster Regeneration Amplifier" = 0
-			# Regeneration effect duration in ticks.
-			#Range: 0 ~ 10000
-			"Plaster Regeneration Duration" = 120
-
-		[body-damage.healing-items.bandage]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Bandage Use Time" = 30
-			# Regeneration effect amplifier.
-			#Range: 0 ~ 10
-			"Bandage Regeneration Amplifier" = 1
-			# Regeneration effect duration in ticks.
-			#Range: 0 ~ 10000
-			"Bandage Regeneration Duration" = 120
-
-		[body-damage.healing-items.tonic]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Tonic Use Time" = 50
-			# Regeneration effect amplifier.
-			#Range: 0 ~ 10
-			"Tonic Regeneration Amplifier" = 1
-			# Regeneration effect duration in ticks.
-			#Range: 0 ~ 10000
-			"Tonic Regeneration Duration" = 140
-
-		[body-damage.healing-items.medikit]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Medikit Use Time" = 50
-			#Range: 0 ~ 10
-			"Medikit Regeneration Amplifier" = 2
-			# Regeneration effect duration in ticks.
-			#Range: 0 ~ 10000
-			"Medikit Regeneration Duration" = 140
-
-		[body-damage.healing-items.morphine]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Morphine Use Time" = 30
-			# Painkiller effect duration in ticks. This effect prevents the player to be affected by broken limbs effects.
-			#Range: 0 ~ 10000
-			"Morphine Painkiller Duration" = 1800
-
 	[body-damage.body-parts-health]
 		# How a player's body part health is determined. Accepted values are as follows:
 		#   SIMPLE - Body parts will have initial fixed values. The body parts health define the health value.
@@ -667,4 +578,75 @@
 			# Painkiller Addiction effect prevents the abusive usage of Painkiller effect that prevents all negative effects from limbs.
 			# Syringe Morphine share the same configuration as Morphine item
 			"Syringe Morphine Apply Painkiller Addiction" = true
+
+	[body-damage.healing-limbs]
+
+		[body-damage.healing-limbs.passive-regeneration]
+			# The limbs will be healed when the player is under one of the mentioned effect, the most damaged limb first.
+			"Passive Limb Regeneration On Effects" = ["minecraft:regeneration", "farmersdelight:comfort"]
+			# Whether the amplification of the effect increase the limb regeneration speed.
+			# The speed increase follows the same logic as the Regeneration Effect Amplification :
+			#    Amplifier 1 -> tick timer /2, Amplifier 2 -> tick timer /4, ...
+			"Passive Limb Regeneration Amplification Enabled" = true
+			# Amount of limb health regenerated, the most damaged limb first.
+			#Range: 0.0 ~ 1000.0
+			"Passive Limb Health Regenerated" = 0.5
+			# How fast in ticks the limbs regenerate passively. 20 ticks = 1s
+			#Range: 0 ~ 10000
+			"Passive Limb Regeneration Tick Timer" = 50
+
+		# The First Aid Supplies overrides the passive limb regeneration as its effects is meant to be stronger.
+		[body-damage.healing-limbs.first-aid-supplies]
+			# The First Aid Supplies regenerate limb health passively, either by holding it or using Curios mod, the most damaged limb first.
+			#Range: 0.0 ~ 1000.0
+			"First Aid Supplies Limb Health Regenerated" = 0.25
+			# How a player's limb health regenerated is defined. Accepted values are as follows:
+			#   SIMPLE - The limb health regenerated is a fixed value defined in First Aid Supplies Limb Health Regenerated.
+			#   PLAYER_DYNAMIC - The limb health regenerated is a percentage value of the player max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
+			#   LIMB_DYNAMIC - The limb health regenerated is a percentage value of the limb max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
+			# Any other value will default to SIMPLE.
+			"First Aid Supplies Limb Regeneration Mode" = "LIMB_DYNAMIC"
+			# Whether the exceeded limb health regenerated will heal the next most damaged limb.
+			# Only available for Regeneration Mode SIMPLE or PLAYER_DYNAMIC.
+			"First Aid Supplies Healing Overflow" = false
+			# How fast in ticks the First Aid Supplies will heal limbs. 20 ticks = 1s
+			#Range: 0 ~ 10000
+			"First Aid Supplies Tick Timer" = 300
+			# Whether the First Aid Supplies exhaust food when healing limbs, such as the other healing items.
+			"First Aid Supplies Exhausts Food" = true
+			# The First Aid Supplies will heal limbs faster when the player is under one of the mentioned effect.
+			"First Aid Supplies Boosted On Effects" = ["minecraft:regeneration", "farmersdelight:comfort"]
+			# How much the First Aid Supplies tick timer is multiplied when boosted. 
+			# A value of 1 would deactivate the speed boost. 0.5 makes the heal twice faster.
+			#Range: 0.1 ~ 1.0
+			"First Aid Supplies Tick Timer Multiplier" = 0.75
+
+		[body-damage.healing-limbs.healing-items]
+			# Amount of player health regenerated by the Recovery Effect every effect tick.
+			# For comparison, the Regeneration Effect healing amount is 1.
+			#Range: 0.0 ~ 1000.0
+			"Recovery Effect Healing Amount" = 0.1
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Healing Herbs Use Time" = 20
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Plaster Use Time" = 20
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Bandage Use Time" = 30
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Tonic Use Time" = 50
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Medkit Use Time" = 50
+
+		[body-damage.healing-limbs.morphine]
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Morphine Use Time" = 30
+			# Painkiller effect duration in ticks. This effect prevents the player to be affected by broken limbs effects.
+			#Range: 0 ~ 10000
+			"Morphine Painkiller Duration" = 1800
 

@@ -51,6 +51,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "eclipticseasons": {
+    "animal": true,
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": false
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
@@ -75,6 +81,7 @@
     "mod_name": true
   },
   "apotheosis": {
+    "adventure": true,
     "ench": true,
     "spawner": true
   },
