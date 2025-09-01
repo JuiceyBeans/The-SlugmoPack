@@ -14,6 +14,8 @@ ServerEvents.tags('item', e => {
         'justhammers:netherite_reinforced_impact_hammer',
         'justhammers:netherite_reinforced_destructor'
     ])
+
+    e.add('supplementaries:throwable_bricks', 'farm_and_charm:rotten_plum_tomato')
 })
 
 ServerEvents.tags('block', e => {
