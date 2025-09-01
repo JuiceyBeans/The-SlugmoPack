@@ -87,6 +87,29 @@
 			x: 2.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["3FB039C6D30FBEAA"]
+			description: ["Some ores drop rough gemstones instead of raw ores. These must be polished with a grindstone before being smelted"]
+			id: "1C86860D3BDA1842"
+			tasks: [{
+				advancement: "spelunkery:spelunkery/rough_gem"
+				criterion: ""
+				id: "7C99CA24A4866F1D"
+				type: "advancement"
+			}]
+			title: "Grind'r!"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "63DC7547F0E0CB8E"
+			tasks: [{
+				id: "27384BD1F5521EE5"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
 	]
 	title: "Oblivion Rejects You."
 }

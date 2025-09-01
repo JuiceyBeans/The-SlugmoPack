@@ -2,9 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tools_of_the_trade"
-	group: "6C85ACB8FCC441D9"
+	group: "56A1E7036A26E675"
+	icon: {
+		Count: 1
+		id: "justhammers:diamond_destructor_hammer"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "4F63D6758620955B"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

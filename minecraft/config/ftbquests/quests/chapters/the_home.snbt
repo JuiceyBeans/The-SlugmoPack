@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_home"
+	group: "56A1E7036A26E675"
+	icon: "farmersdelight:honey_glazed_ham"
+	id: "75B3AD3B04472AE4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "vinery:red_grape"
+			id: "5152F7707AD90FCC"
+			subtitle: "Get some grapes!"
+			tasks: [{
+				id: "45B6902A7CFCF787"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:grapes)"
+					}
+				}
+				title: "Any #forge:grapes"
+				type: "item"
+			}]
+			title: "Too Sour?"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "7F1FFBEC0F05FE2C"
+			subtitle: "Stomp on some grapes!"
+			tasks: [{
+				id: "12E88C8C5344DFCD"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5152F7707AD90FCC"
+				"7F1FFBEC0F05FE2C"
+			]
+			icon: "vinery:white_grapejuice"
+			id: "7563FE618F9F5064"
+			subtitle: "Make grape juice!"
+			tasks: [{
+				id: "3BE18775564F29FF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:grapejuice)"
+					}
+				}
+				title: "Any #vinery:grapejuice"
+				type: "item"
+			}]
+			title: "The Roman Way"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			icon: {
+				Count: 1
+				id: "vinery:noir_wine"
+				tag: {
+					EffectAmplifier: 0
+					EffectDuration: 1800
+				}
+			}
+			id: "7A37A28D9A01BAB2"
+			tasks: [{
+				id: "229F9415A72C35B2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:red_wine)"
+					}
+				}
+				title: "Any #vinery:white_wine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			icon: {
+				Count: 1
+				id: "vinery:glowing_wine"
+				tag: {
+					EffectAmplifier: 0
+					EffectDuration: 1800
+				}
+			}
+			id: "48BAAD779772FFDC"
+			tasks: [{
+				id: "2B1AD0C3EA6A008E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:white_wine)"
+					}
+				}
+				title: "Any #vinery:white_wine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			id: "1D50BCCE231D1502"
+			tasks: [{
+				id: "70458D2CD4357900"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78D8DA39E11204DA"]
+			id: "220B3585476FE8DF"
+			tasks: [{
+				id: "131E0F95E58D708F"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "105A695724E2EDAC"
+			tasks: [{
+				id: "5C3CE3EF9278BEED"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["105A695724E2EDAC"]
+			id: "1D160F07E4999C51"
+			tasks: [{
+				id: "449709F474947666"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["105A695724E2EDAC"]
+			id: "597D5F71A3BFFC86"
+			tasks: [{
+				id: "12340A9EC9D01725"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "78D8DA39E11204DA"
+			tasks: [{
+				id: "77D6040BFC80645D"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			id: "3DACEA512C336932"
+			tasks: [{
+				id: "4457B47559012C62"
+				item: "vinery:dark_cherry_wine_rack_small"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+	]
+	title: "The Homestead"
+}

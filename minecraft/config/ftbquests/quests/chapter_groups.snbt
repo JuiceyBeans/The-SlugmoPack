@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "6C85ACB8FCC441D9", title: "Progression" }
+		{ id: "56A1E7036A26E675", title: "Thriving" }
 		{ id: "1B29DA3D569DAB10", title: "Mods" }
 	]
 }

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flora__fauna"
-	group: "6C85ACB8FCC441D9"
+	group: "56A1E7036A26E675"
 	icon: "minecraft:sniffer_egg"
 	id: "3DC657B62EC05488"
 	order_index: 1
@@ -64,7 +64,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["Dropped by Greenland Sharks when fed"]
+			description: ["Dropped by &cGreenland Sharks&r when fed"]
 			id: "58BDF7ED3A4FCD22"
 			tasks: [{
 				id: "48595CC7B0BFD233"
@@ -97,6 +97,13 @@
 		}
 		{
 			description: ["Dropped by Thalassolagers"]
+			icon: {
+				Count: 1
+				id: "benssharks:maelstrom_bow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "342276121F49943B"
 			tasks: [
 				{
