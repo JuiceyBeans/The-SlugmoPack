@@ -5823,44 +5823,6 @@
             ]
         },
         {
-            "pakku_id": "B1LIghFOVUknQMMI",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "quality-food"
-            },
-            "name": {
-                "curseforge": "Quality Food"
-            },
-            "id": {
-                "curseforge": "973932"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "quality_food-1.20.1-2.2.6-all.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6836/343/quality_food-1.20.1-2.2.6-all.jar",
-                    "id": "6836343",
-                    "parent_id": "973932",
-                    "hashes": {
-                        "sha1": "02920b99949f4e19a55c7a1dfb81557c2dd9771c",
-                        "md5": "d6fba02654840cdc4f7efd94e52d3d36"
-                    },
-                    "required_dependencies": [],
-                    "size": 396710,
-                    "date_published": "2025-08-01T15:15:06.650Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "kbTzSBng9bCo8ru3",
             "pakku_links": [
                 "My7RAknOkj9pa6h5"
