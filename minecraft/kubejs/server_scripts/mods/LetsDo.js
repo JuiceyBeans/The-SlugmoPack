@@ -15,13 +15,15 @@ ServerEvents.recipes(e => {
           item: 'minecraft:glass_bottle' 
         }
       },
-      result: {
-        item: `${output}`,
-        count: 1
-      },
+      result: { item: `${output}`, count: 1 },
       requiredLearning: false
-    }).id(`${ingredient}_tea`)
+    }).id(`slugmo:${ingredient.replace(/^.*:/, '')}_tea_from_pot_cooking`)
   }
+  
+  // mixing('5x delightful:nut_dough', [Ingredient.of('#forge:eggs'), 'farm_and_charm:yeast', Ingredient.of('#forge:nut_butter')])
+  // mixing('5x vintagedelight:oat_dough', [Ingredient.of('#forge:eggs'), 'farm_and_charm:yeast', Ingredient.of('#forge:nut_butter')])
+  // mixing('5x farm_and_charm:dough', [Ingredient.of('#forge:eggs'), 'farm_and_charm:yeast', Ingredient.of('#forge:flour'), 'minecraft:water'])
+  // mixing('2x mynethersdelight:ghast_sourdough', ['mynethersdelight:strider_egg', 'farm_and_charm:yeast', 'mynethersdelight:ghasmati', 'minecraft:lava_bucket'])
   
   tea('farm_and_charm:strawberry', 'farm_and_charm:strawberry_tea')
   tea('farm_and_charm:wild_nettle', 'farm_and_charm:nettle_tea')
@@ -83,48 +85,58 @@ ServerEvents.recipes(e => {
   e.shapeless(
     '3x beachparty:thatch', ['minecraft:wheat', 'quark:thatch', 'quark:thatch', 'quark:thatch']
   )
+
+  e.shapeless(
+    'vinery:apple_tree_sapling', ['minecraft:oak_sapling', 'minecraft:apple']
+  )
   
-  e.recipes.farmersdelight.cutting(
-    'farm_and_charm:wild_carrots',
-    '#forge:tools/knives',
-    [
-      'minecraft:carrot',
-      Item.of('2x minecraft:light_gray_dye').withChance(0.5)
-    ]
-  )
-  e.recipes.farmersdelight.cutting(
-    'farm_and_charm:wild_potatoes',
-    '#forge:tools/knives',
-    [
-      'minecraft:potato',
-      Item.of('2x minecraft:purple_dye').withChance(0.5)
-    ]
-  )
-  e.recipes.farmersdelight.cutting(
-    'farm_and_charm:wild_beetroots',
-    '#forge:tools/knives',
-    [
-      'minecraft:beetroot_seeds',
-      'minecraft:red_dye'
-    ]
-  )
-  e.recipes.farmersdelight.cutting(
-    'farm_and_charm:wild_onions',
-    '#forge:tools/knives',
-    [
-      'farmersdelight:onion',
-      '2x minecraft:magenta_dye',
-      Item.of('minecraft:lime_dye').withChance(0.1)
-    ]
-  )
-  e.recipes.farmersdelight.cutting(
-    'farm_and_charm:wild_tomatoes',
-    '#forge:tools/knives',
-    [
-      'farmersdelight:tomato_seeds',
-      Item.of('farmersdelight:tomato').withChance(0.2),
-      Item.of('minecraft:green_dye').withChance(0.1)
-    ]
-  )
-  e.replaceInput( {id: 'vintagedelight:cutting/oat_cutting'}, 'vintagedelight:oat', '#forge:oat')
+  // e.recipes.farmersdelight.cutting(
+  //   'farm_and_charm:wild_carrots',
+  //   '#forge:tools/knives',
+  //   [
+  //     'minecraft:carrot',
+  //     Item.of('2x minecraft:light_gray_dye').withChance(0.5)
+  //   ]
+  // )
+  // e.recipes.farmersdelight.cutting(
+  //   'farm_and_charm:wild_potatoes',
+  //   '#forge:tools/knives',
+  //   [
+  //     'minecraft:potato',
+  //     Item.of('2x minecraft:purple_dye').withChance(0.5)
+  //   ]
+  // )
+  // e.recipes.farmersdelight.cutting(
+  //   'farm_and_charm:wild_beetroots',
+  //   '#forge:tools/knives',
+  //   [
+  //     'minecraft:beetroot_seeds',
+  //     'minecraft:red_dye'
+  //   ]
+  // )
+  // e.recipes.farmersdelight.cutting(
+  //   'farm_and_charm:wild_onions',
+  //   '#forge:tools/knives',
+  //   [
+  //     'farmersdelight:onion',
+  //     '2x minecraft:magenta_dye',
+  //     Item.of('minecraft:lime_dye').withChance(0.1)
+  //   ]
+  // )
+  // e.recipes.farmersdelight.cutting(
+  //   'farm_and_charm:wild_tomatoes',
+  //   '#forge:tools/knives',
+  //   [
+  //     'farmersdelight:tomato_seeds',
+  //     Item.of('farmersdelight:tomato').withChance(0.2),
+  //     Item.of('minecraft:green_dye').withChance(0.1)
+  //   ]
+  // )
+  
+  e.replaceInput({ id: 'vintagedelight:cutting/oat_cutting' }, 'vintagedelight:oat', '#forge:oat')
+  e.replaceInput({ id: 'delightful:food/nut_dough' }, 'minecraft:bone_meal', 'farm_and_charm:yeast')
+  
+  e.smelting('minecraft:bread', '#forge:dough').xp(0.35)
+  e.smoking('minecraft:bread', '#forge:dough').xp(0.35)
+  e.campfireCooking('minecraft:bread', '#forge:dough')
 })
