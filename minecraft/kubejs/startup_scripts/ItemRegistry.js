@@ -13,7 +13,7 @@ StartupEvents.registry('item', event => {
     event.create('malabar_prawns_curry_and_rice')
         .food(food => {
             food.hunger(12)
-                .saturation(1.5)
+                .saturation(0.75)
                 .effect('minecraft:strength', 1200, 1, 1)
                 .effect('farm_and_charm:satiation', 6000, 1, 1)
         })
