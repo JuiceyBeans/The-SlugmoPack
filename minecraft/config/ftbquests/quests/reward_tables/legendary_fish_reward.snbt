@@ -21,6 +21,7 @@
 		{ item: "minecraft:tide_armor_trim_smithing_template", weight: 8.0f }
 		{ count: 2, item: "collectorsreap:shimmering_apple", weight: 8.0f }
 		{ item: "collectorsreap:shimmering_pearl", weight: 8.0f }
+		{ item: "aquaculture:nether_star_hook", weight: 2.0f }
 	]
 	title: "Legendary Fish Reward"
 	use_title: true
