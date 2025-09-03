@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_home"
+	group: "56A1E7036A26E675"
+	icon: "farmersdelight:honey_glazed_ham"
+	id: "75B3AD3B04472AE4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Grapes can be &6planted on the ground&r like berry bushes, or placed on &6grapevine stems&r"]
+			icon: "vinery:red_grape"
+			id: "5152F7707AD90FCC"
+			subtitle: "Get some grapes!"
+			tasks: [{
+				id: "45B6902A7CFCF787"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:grapes)"
+					}
+				}
+				title: "Any Grapes"
+				type: "item"
+			}]
+			title: "Too Sour?"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5152F7707AD90FCC"]
+			description: ["&5Grapejuice&r is made by putting grapes in a &6grapevine pot&r, and jumping on it a few times. After its squished, use a &5wine bottle&r on it to bottle it up"]
+			id: "7F1FFBEC0F05FE2C"
+			subtitle: "Stomp on some grapes!"
+			tasks: [{
+				id: "12E88C8C5344DFCD"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "The Roman Way!"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F1FFBEC0F05FE2C"]
+			icon: "vinery:white_grapejuice"
+			id: "7563FE618F9F5064"
+			subtitle: "Make grape juice!"
+			tasks: [{
+				id: "3BE18775564F29FF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:grapejuice)"
+					}
+				}
+				title: "Any #vinery:grapejuice"
+				type: "item"
+			}]
+			title: "The Roman Way"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			icon: {
+				Count: 1
+				id: "vinery:noir_wine"
+				tag: {
+					EffectAmplifier: 0
+					EffectDuration: 1800
+				}
+			}
+			id: "7A37A28D9A01BAB2"
+			tasks: [{
+				id: "229F9415A72C35B2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:red_wine)"
+					}
+				}
+				title: "Any Red Wine"
+				type: "item"
+			}]
+			title: "Red Wines"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			icon: {
+				Count: 1
+				id: "vinery:glowing_wine"
+				tag: {
+					EffectAmplifier: 0
+					EffectDuration: 1800
+				}
+			}
+			id: "48BAAD779772FFDC"
+			tasks: [{
+				id: "2B1AD0C3EA6A008E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:white_wine)"
+					}
+				}
+				title: "Any White Wine"
+				type: "item"
+			}]
+			title: "White Wines"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7563FE618F9F5064"
+				"675E89E74758CED3"
+			]
+			id: "1D50BCCE231D1502"
+			tasks: [{
+				id: "70458D2CD4357900"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78D8DA39E11204DA"]
+			id: "220B3585476FE8DF"
+			tasks: [{
+				id: "131E0F95E58D708F"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "105A695724E2EDAC"
+			tasks: [{
+				id: "5C3CE3EF9278BEED"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["105A695724E2EDAC"]
+			id: "1D160F07E4999C51"
+			tasks: [{
+				id: "449709F474947666"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["105A695724E2EDAC"]
+			id: "597D5F71A3BFFC86"
+			tasks: [{
+				id: "12340A9EC9D01725"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "78D8DA39E11204DA"
+			tasks: [{
+				id: "77D6040BFC80645D"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5152F7707AD90FCC"]
+			description: ["Unlike other grape varieties, &djungle grapes&r can only be grown on &6lattices&r"]
+			icon: "vinery:jungle_grapes_red"
+			id: "182C418D2BECFA1A"
+			tasks: [
+				{
+					id: "18A8BE524DA5E881"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(vinery:jungle_grapes_red)item(vinery:jungle_grapes_white))"
+						}
+					}
+					title: "Any Jungle Grapes"
+					type: "item"
+				}
+				{
+					id: "59F0C63C36E145A4"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:lattice)"
+						}
+					}
+					title: "Any Lattice"
+					type: "item"
+				}
+			]
+			title: "Growing Jungle Grapes"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7563FE618F9F5064"]
+			description: ["Every 16 days, your wine ages one level. Every 5 levels, the strength of the effect of your wine goes up. The strength of your wine can go upto a maximum of 5 levels."]
+			icon: "vinery:oak_wine_rack_big"
+			id: "6013E6BBC991D69E"
+			subtitle: "Store some wine for ageing!"
+			tasks: [{
+				id: "045622420FB5EE67"
+				title: "Start ageing your wine!"
+				type: "checkmark"
+			}]
+			title: "Ageing... Like fine wine!"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "4EFFC729040B1615"
+			tasks: [{
+				id: "3933978660672AB8"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4EFFC729040B1615"]
+			id: "675E89E74758CED3"
+			tasks: [{
+				id: "61055687ECB63CE7"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EFFC729040B1615"]
+			description: ["Instead of directly bottling your honey from a beehive, you can harvest honeycombs and press them to get 3x honey bottles!"]
+			id: "624E1AD27FEE1E08"
+			optional: true
+			tasks: [{
+				id: "476ACE50055A4790"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			title: "Triple Honey!"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "32A4E4D56E02C3A0"
+			tasks: [{
+				id: "4BDC5422E221384F"
+				item: "vintagedelight:fermenting_jar"
+				type: "item"
+			}]
+			title: "Fermenting and Pickles!"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			description: ["&6Lime Bushes&r need to be pollinated by a &abee&r before being able to grow fruit"]
+			id: "363FDD99E3C2B6AF"
+			tasks: [
+				{
+					id: "7CC3742CD3A01CA4"
+					item: "collectorsreap:lime_seeds"
+					type: "item"
+				}
+				{
+					id: "74B973322CC6FA61"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "The Homestead"
+}
