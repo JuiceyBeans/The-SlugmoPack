@@ -3,6 +3,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:salt', 'spelunkery:saltpeter')
     e.add('forge:oat', ['vintagedelight:oat', 'farm_and_charm:oat'])
     e.add('forge:shrimp', ['collectorsreap:tiger_prawn', 'crabbersdelight:shrimp'])
+    e.add('forge:milk', 'slugmo:coconut_milk')
     
     e.add('slugmo:sturdy_stone', ['quark:sturdy_stone', 'dolt_mod_how:sturdy_deepslate'])
     e.add('slugmo:netherite_hammers', [
