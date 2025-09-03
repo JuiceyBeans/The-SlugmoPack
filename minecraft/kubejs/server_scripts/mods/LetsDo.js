@@ -154,7 +154,7 @@ ServerEvents.recipes(e => {
       container: {
         required: true,
         item: {
-          item: 'minecraft:bottle' 
+          item: 'minecraft:glass_bottle' 
         }
       },
       result: { item: 'kubejs:coconut_milk', count: 1 },
