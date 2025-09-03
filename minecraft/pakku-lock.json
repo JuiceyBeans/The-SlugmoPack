@@ -99,7 +99,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "alltheleaks-1.0.2+1.20.1-forge.jar",
+                    "file_name": "alltheleaks-1.0.3+1.20.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -107,16 +107,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6925/345/alltheleaks-1.0.2+1.20.1-forge.jar",
-                    "id": "6925345",
+                    "url": "https://edge.forgecdn.net/files/6954/969/alltheleaks-1.0.3+1.20.1-forge.jar",
+                    "id": "6954969",
                     "parent_id": "1091339",
                     "hashes": {
-                        "sha1": "ead0c329b746ef023292f870874906a388212c93",
-                        "md5": "e2dadc6797466456cfa7e4a55d6a7450"
+                        "sha1": "362320e0bd04af7f6bc9ce93a1d2a46a47935d0f",
+                        "md5": "9ea4fd61333e66e9c5b7451a1c9fe982"
                     },
                     "required_dependencies": [],
-                    "size": 1135004,
-                    "date_published": "2025-08-25T03:05:37.257Z"
+                    "size": 1136005,
+                    "date_published": "2025-09-02T05:16:22.177Z"
                 }
             ]
         },
@@ -1294,7 +1294,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "collectors_caravan-4.2.0-forge-1.20.1.jar",
+                    "file_name": "collectors_caravan-4.2.2-forge-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1302,18 +1302,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6880/852/collectors_caravan-4.2.0-forge-1.20.1.jar",
-                    "id": "6880852",
+                    "url": "https://edge.forgecdn.net/files/6958/237/collectors_caravan-4.2.2-forge-1.20.1.jar",
+                    "id": "6958237",
                     "parent_id": "1070090",
                     "hashes": {
-                        "sha1": "a6f4b6a2db9526ff6b43671f1e256457f5eda0be",
-                        "md5": "0e15b3607c1e3c9efcb492f68bc9bdd7"
+                        "sha1": "0e9bc26e0d4f83e599c02a7e239e94aaa4bf824c",
+                        "md5": "83d440308144ecaffbc745b3a67c3776"
                     },
                     "required_dependencies": [
                         "388172"
                     ],
-                    "size": 2564393,
-                    "date_published": "2025-08-13T03:40:17.097Z"
+                    "size": 2581846,
+                    "date_published": "2025-09-03T06:23:38.040Z"
                 }
             ]
         },
@@ -4630,7 +4630,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "legendarysurvivaloverhaul-1.20.1-2.3.21.jar",
+                    "file_name": "legendarysurvivaloverhaul-1.20.1-2.3.22.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4639,16 +4639,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6924/761/legendarysurvivaloverhaul-1.20.1-2.3.21.jar",
-                    "id": "6924761",
+                    "url": "https://edge.forgecdn.net/files/6954/536/legendarysurvivaloverhaul-1.20.1-2.3.22.jar",
+                    "id": "6954536",
                     "parent_id": "840254",
                     "hashes": {
-                        "sha1": "ab8a52fe40e29b279856b8f5d30cbe7992970d2b",
-                        "md5": "1808e1307df6c25c6656c673872c8f8c"
+                        "sha1": "f028beb2e99e728ba7f21feed5277690b3edd106",
+                        "md5": "3ef77e01fac5abd571c4f2c2695e4ee8"
                     },
                     "required_dependencies": [],
-                    "size": 3736408,
-                    "date_published": "2025-08-24T22:53:36.087Z"
+                    "size": 3743147,
+                    "date_published": "2025-09-02T01:10:37.397Z"
                 }
             ]
         },
@@ -6449,7 +6449,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.27.1320.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.1.1333.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6458,18 +6458,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6951/896/sophisticatedbackpacks-1.20.1-3.23.27.1320.jar",
-                    "id": "6951896",
+                    "url": "https://edge.forgecdn.net/files/6958/331/sophisticatedbackpacks-1.20.1-3.24.1.1333.jar",
+                    "id": "6958331",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "da24f08b30b5702e16df48b1dbad20cc3eb737cf",
-                        "md5": "b707ccaced635223c73a9e461d27be91"
+                        "sha1": "8ebb451032419924b68c54bb130f43f48e307560",
+                        "md5": "6918f027968a5e376e607c0e6e9d4fd4"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 935692,
-                    "date_published": "2025-09-01T11:16:48.307Z"
+                    "size": 970518,
+                    "date_published": "2025-09-03T07:27:18.433Z"
                 }
             ]
         },
@@ -7991,7 +7991,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "entity_texture_features_1.20.1-forge-7.0.1.jar",
+                    "file_name": "entity_texture_features_1.20.1-forge-7.0.2.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -8001,16 +8001,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6925/372/entity_texture_features_1.20.1-forge-7.0.1.jar",
-                    "id": "6925372",
+                    "url": "https://edge.forgecdn.net/files/6954/759/entity_texture_features_1.20.1-forge-7.0.2.jar",
+                    "id": "6954759",
                     "parent_id": "568563",
                     "hashes": {
-                        "sha1": "15859163cc62136ba5a6bcb084bf4232057a3ffc",
-                        "md5": "4bf4923ccd136e4aa2515114cf0f6622"
+                        "sha1": "24c555adc1398a5a516cd511e724b125ed38a804",
+                        "md5": "1b13a36cd9ba7686d997a99001226373"
                     },
                     "required_dependencies": [],
-                    "size": 897448,
-                    "date_published": "2025-08-25T03:28:03.527Z"
+                    "size": 894117,
+                    "date_published": "2025-09-02T03:03:48.043Z"
                 }
             ]
         },
