@@ -6,5 +6,10 @@
   "enchantment.celestisynth.pulsation.desc": "Has a chance to deals bonus damage and knockback on hit.",
   "enchantment.luminous_nether.soul_cleave.desc": "All mobs drop Ghostly Essence.",
 
-  "item.knightlib.filled_grail": "Filled Grail"
+  "entity.minecraft.villager.collector_villager": "Collector Villager",
+
+  "item.knightlib.filled_grail": "Filled Grail",
+  "item.knightlib.empty_grail": "Empty Grail",
+  "item.knightlib.small_essence": "Small Essence",
+  "item.knightlib.great_essence": "Great Essence"
 }
