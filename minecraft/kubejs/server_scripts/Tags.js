@@ -2,9 +2,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:straw', ['biomesoplenty:barley', 'vintagedelight:oat', 'biomesoplenty:sea_oats'])
     e.add('forge:salt', 'spelunkery:saltpeter')
     e.add('forge:oat', ['vintagedelight:oat', 'farm_and_charm:oat'])
-    
-    e.add('sereneseasons:summer_crops','legendarysurvivaloverhaul:sun_fern_seeds')
-    e.add('sereneseasons:winter_crops','legendarysurvivaloverhaul:ice_fern_seeds')
+    e.add('forge:shrimp', ['collectorsreap:tiger_prawn', 'crabbersdelight:shrimp'])
     
     e.add('slugmo:sturdy_stone', ['quark:sturdy_stone', 'dolt_mod_how:sturdy_deepslate'])
     e.add('slugmo:netherite_hammers', [
