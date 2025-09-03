@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_depths"
+	group: "56A1E7036A26E675"
+	id: "6C86F34D71096ED9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DEC2EBBCB39478B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52A27F934C2D743C"
+				table_id: 3491746369469098222L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4635583573D273F6"
+				item: "stardew_fishing:goliath_grouper"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "6B6C16565C0662A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F134DFC834A0E5B"
+				table_id: 3491746369469098222L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FE0D38FC62C09E8"
+				item: "stardew_fishing:vampire_payara"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "300D7C9A9DF89E84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64835A0BAC1FC1C9"
+				table_id: 3491746369469098222L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A9B44F4C139C06C"
+				item: "stardew_fishing:golden_snook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "1D7C06E23CC57B49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61129E482330CC3F"
+				table_id: 3491746369469098222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4A773E8EB73622E5"
+				item: "stardew_fishing:sabretoothed_tigerfish"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "1FF87C91A725DA22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "540A785856F1C71F"
+				table_id: 3491746369469098222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35601CC45BC13CE8"
+				item: "stardew_fishing:chromatic_arapaima"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "7B37BA18B8E91F9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2384B231FEF17111"
+				table_id: 3491746369469098222L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00DA6CF1E5E86E20"
+				item: "stardew_fishing:cyclops_mahimahi"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "1823E5F1276180E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7485541569B29E1A"
+				table_id: 3491746369469098222L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CF694F2C8B2CD8F"
+				item: "stardew_fishing:storm_tarpon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0808E54DAE9F7F7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "058A70FCB0EF6430"
+				table_id: 3491746369469098222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3F7B765AD2063EAD"
+				item: "stardew_fishing:blazing_oarfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "187CB56E3F84B60E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62E2E4B194C477BD"
+				table_id: 3491746369469098222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79684D98C2B3FCB6"
+				item: "stardew_fishing:crystalline_snakehead"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "5C3ED340C4EC7B2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765BEE68CB5A9025"
+				table_id: 3491746369469098222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6736C8896EA059C4"
+				item: "stardew_fishing:demon_gar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	title: "The Depths"
+}
