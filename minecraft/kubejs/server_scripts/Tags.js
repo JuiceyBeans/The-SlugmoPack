@@ -13,6 +13,14 @@ ServerEvents.tags('item', e => {
         'justhammers:netherite_reinforced_destructor'
     ])
 
+    e.add('forge:tools/knives', [
+        'simplyswords:iron_cutlass',
+        'simplyswords:golden_cutlass',
+        'simplyswords:diamond_cutlass',
+        'simplyswords:netherite_cutlass',
+        'simplyswords:runic_cutlass',
+    ])
+
     e.add('supplementaries:throwable_bricks', 'farm_and_charm:rotten_plum_tomato')
 })
 
