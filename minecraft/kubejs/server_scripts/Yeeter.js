@@ -30,6 +30,7 @@ const recipe_id_removal = [
     'farmersdelight:wheat_dough_from_water',
     'mynethersdelight:crafting/ghast_dough',
     'farmersdelight:pie_crust',
+    'create:crafting/appliances/slime_ball'
 ]
 
 // Remove and hide items
