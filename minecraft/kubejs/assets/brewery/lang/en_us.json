@@ -1,3 +1,5 @@
 {
-    "block.brewery.wooden_brewingstation": "Wooden Brewing Station"
+    "block.brewery.wooden_brewingstation": "Wooden Brewing Station",
+    "block.brewery.copper_brewingstation": "Copper Brewing Station",
+    "block.brewery.netherite_brewingstation": "Netherite Brewing Station"
 }
