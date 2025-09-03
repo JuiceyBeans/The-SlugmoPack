@@ -132,6 +132,61 @@ ServerEvents.recipes(e => {
   //     Item.of('minecraft:green_dye').withChance(0.1)
   //   ]
   // )
+
+  e.custom({
+      type: 'farm_and_charm:pot_cooking',
+      ingredients: [
+        { tag: 'forge:eggs' },
+        { item: 'minecraft:water_bucket' }
+      ],
+      container: {
+        required: false
+      },
+      result: { item: 'mynethersdelight:boiled_egg', count: 1 },
+    }).id('slugmo:boiled_egg')
+
+  e.custom({
+      type: 'farm_and_charm:pot_cooking',
+      ingredients: [
+        { item: 'kubejs:grated_coconut' },
+        { item: 'minecraft:water_bucket' }
+      ],
+      container: {
+        required: true,
+        item: {
+          item: 'minecraft:bottle' 
+        }
+      },
+      result: { item: 'kubejs:coconut_milk', count: 1 },
+    }).id('slugmo:coconut_milk')
+
+    e.custom({
+      type: 'farm_and_charm:pot_cooking',
+      ingredients: [
+        { tag: 'forge:shrimp' },
+        { item: 'kubejs:coconut_milk' },
+        { tag: 'forge:crops/tomato' },
+        { tag: 'forge:crops/onion' },
+        { tag: 'forge:vegetables/spicy' },
+        { tag: 'forge:grain/rice' }
+      ],
+      container: {
+        required: true,
+        item: {
+          item: 'minecraft:bowl' 
+        }
+      },
+      result: { item: 'kubejs:malabar_prawns_curry_and_rice', count: 1 },
+    }).id('slugmo:malabar_prawns_curry_and_rice')
+
+    e.custom({
+      type: 'farm_and_charm:mincer',
+      ingredient: {
+        item: 'beachparty:coconut_open'
+      },
+      recipe_type: 'MEAT',
+      result: { item: 'kubejs:grated_coconut', count: 3 },
+    }).id('slugmo:grated_coconut')
   
   e.replaceInput({ id: 'vintagedelight:cutting/oat_cutting' }, 'vintagedelight:oat', '#forge:oat')
   e.replaceInput({ id: 'delightful:food/nut_dough' }, 'minecraft:bone_meal', 'farm_and_charm:yeast')
