@@ -8,11 +8,16 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		description: ["Dropped by &cGreenland Sharks&r when fed"]
+		description: ["Found in &6Suspicious Sand&r in &bWarm Ocean Ruins&r"]
 		id: "58BDF7ED3A4FCD22"
+		rewards: [{
+			id: "22FA18DC58ECE59B"
+			item: "plushie_buddies:plushie_sniffer"
+			type: "item"
+		}]
 		tasks: [{
 			id: "48595CC7B0BFD233"
-			item: "minecraft:tide_armor_trim_smithing_template"
+			item: "minecraft:sniffer_egg"
 			type: "item"
 		}]
 		x: 2.5d
