@@ -106,9 +106,9 @@
 
 [Animal]
 	#Enable seasonal animal breed.
-	EnableSeasonalBreed = true
+	EnableSeasonalBreed = false
 	#Enable seasonal bee behavior, bee would like spring and not like winter and cold.
-	EnableSeasonalBee = true
+	EnableSeasonalBee = false
 	#Enable seasonal fishing behavior, let enjoy summer.
 	EnableSeasonalFishing = true
 	#Greenhouse core would also work for animal check but not need a greenhouse.
@@ -146,10 +146,10 @@
 	DisableChunkCacheCleaner = false
 	#Disable unique rebinding for biome tags. Note that after disabling, tags may overlap.
 	DisableUniqueBiomeTagsRebinding = false
+	#Set to false to disable tag which stops block from snowy is tagged with "eclipticseasons:snow_overlay_cannot_survive_on".
+	DisableSnowOverlayControlTag = false
 
 [Map]
-	#Delay updating the top block to snowy when height map changes during snowfall.
-	ServerRealisticSnowyChange = false
 	#The map color of blocks will change during snow.
 	ChangeMapColor = true
 
