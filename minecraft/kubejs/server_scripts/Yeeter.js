@@ -30,7 +30,10 @@ const recipe_id_removal = [
     'farmersdelight:wheat_dough_from_water',
     'mynethersdelight:crafting/ghast_dough',
     'farmersdelight:pie_crust',
-    'create:crafting/appliances/slime_ball'
+    'create:crafting/appliances/slime_ball',
+    'architects_palette:nether_brass_blend',
+    'architects_palette:smelting/nether_brass_ingot_from_nether_brass_blend_blasting',
+    'buddycards:buddysteel_blend'
 ]
 
 // Remove and hide items
@@ -48,7 +51,9 @@ const remove_completely = [
     'quark:polished_tuff',
     'quark:polished_tuff_wall',
     'quark:polished_tuff_slab',
-    'spelunkery:item_magnet'
+    'spelunkery:item_magnet',
+    'sophisticatedstorage:gold_chest',
+    'sophisticatedstorage:netherite_chest'
 ]
 
 ServerEvents.recipes(event => {
