@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "56A1E7036A26E675"
+	id: "7F1C629284166D2B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0DCF773892B8DAB2"
+			tasks: [{
+				id: "14A3E421423DC827"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "6477EFA1E8C61F28"
+			tasks: [{
+				id: "4C300CDCB1354A5C"
+				item: "buddycards:buddysteel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "Storage"
+}

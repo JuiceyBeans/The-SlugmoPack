@@ -110,9 +110,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "56A26144D3632737"
-				item: "buddycards:buddycard_pack_mystery"
-				type: "item"
+				id: "3CE9A7CD6C39553D"
+				type: "checkmark"
 			}]
 			title: "Mystery Packs!"
 			x: 0.0d

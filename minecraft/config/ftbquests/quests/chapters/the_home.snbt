@@ -144,34 +144,56 @@
 			y: -5.5d
 		}
 		{
+			icon: "farm_and_charm:stove"
 			id: "105A695724E2EDAC"
+			subtitle: "Make a stove!"
 			tasks: [{
 				id: "5C3CE3EF9278BEED"
-				item: "farm_and_charm:stove"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:stove)item(farmersdelight:stove)item(mynethersdelight:nether_bricks_stove)item(ends_delight:end_stove)item(candlelight:cobblestone_stove)item(candlelight:sandstone_stove)item(candlelight:stone_bricks_stove)item(candlelight:deepslate_stove)item(candlelight:granite_stove)item(candlelight:end_stove)item(candlelight:mud_stove)item(candlelight:quartz_stove)item(candlelight:red_nether_bricks_stove)item(candlelight:basalt_stove)item(candlelight:bamboo_stove))"
+					}
+				}
+				title: "Any Stove"
 				type: "item"
 			}]
+			title: "Keepin' it Hot!"
 			x: 5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["105A695724E2EDAC"]
+			icon: "farm_and_charm:cooking_pot"
 			id: "1D160F07E4999C51"
+			subtitle: "Make a Cooking Pot!"
 			tasks: [{
 				id: "449709F474947666"
-				item: "farm_and_charm:cooking_pot"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:cooking_pot)item(candlelight:cooking_pot)item(bakery:small_cooking_pot)item(candlelight:cooking_pan))"
+					}
+				}
+				title: "Any Cooking Pot"
 				type: "item"
 			}]
+			title: "Cooking Pots!"
 			x: 5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["105A695724E2EDAC"]
 			id: "597D5F71A3BFFC86"
+			subtitle: "Make a Roaster!"
 			tasks: [{
 				id: "12340A9EC9D01725"
 				item: "farm_and_charm:roaster"
 				type: "item"
 			}]
+			title: "Roasts!"
 			x: 7.0d
 			y: -4.0d
 		}
@@ -283,7 +305,9 @@
 		}
 		{
 			description: ["&6Lime Bushes&r need to be pollinated by a &abee&r before being able to grow fruit"]
+			icon: "collectorsreap:lime"
 			id: "363FDD99E3C2B6AF"
+			subtitle: "Grow some limes!"
 			tasks: [
 				{
 					id: "7CC3742CD3A01CA4"
@@ -296,8 +320,46 @@
 					type: "item"
 				}
 			]
+			title: "Limes!"
 			x: 5.0d
 			y: -1.0d
+		}
+		{
+			id: "0D52AD694CA460E3"
+			tasks: [{
+				id: "0FA42AD970C98D45"
+				item: "farm_and_charm:mincer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			icon: "beachparty:melon_cocktail"
+			id: "5D5DA884597C1B50"
+			subtitle: "Make a cocktail!"
+			tasks: [
+				{
+					id: "1AEDCFED72692E36"
+					item: "beachparty:palm_bar"
+					type: "item"
+				}
+				{
+					id: "7E38F6E4EAD384CA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(beachparty:sweetberries_cocktail)item(beachparty:cocoa_cocktail)item(beachparty:coconut_cocktail)item(beachparty:pumpkin_cocktail)item(beachparty:melon_cocktail)item(beachparty:honey_cocktail))"
+						}
+					}
+					title: "Any Cocktail"
+					type: "item"
+				}
+			]
+			title: "Keepin' it Cool!"
+			x: -2.5d
+			y: -7.5d
 		}
 	]
 	title: "The Homestead"

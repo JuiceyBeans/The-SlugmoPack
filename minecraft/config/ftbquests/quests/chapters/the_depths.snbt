@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "the_depths"
 	group: "56A1E7036A26E675"
+	icon: "alexscaves:tripodfish"
 	id: "6C86F34D71096ED9"
 	order_index: 3
 	quest_links: [ ]
