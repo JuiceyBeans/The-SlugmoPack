@@ -13,15 +13,20 @@ ServerEvents.tags('item', e => {
         'justhammers:netherite_reinforced_impact_hammer',
         'justhammers:netherite_reinforced_destructor'
     ])
-
-    e.add('forge:tools/knives', [
-        'simplyswords:iron_cutlass',
-        'simplyswords:golden_cutlass',
-        'simplyswords:diamond_cutlass',
-        'simplyswords:netherite_cutlass',
-        'simplyswords:runic_cutlass',
-    ])
-
+    
+    // WHY ARE THERE SO MANY KNIFE TAGS USE A FORGE TAG PLEASE
+    function knife_tags(tag) { 
+        e.add(tag, [
+            'simplyswords:iron_cutlass',
+            'simplyswords:golden_cutlass',
+            'simplyswords:diamond_cutlass',
+            'simplyswords:netherite_cutlass',
+            'simplyswords:runic_cutlass',
+        ])
+    }
+    
+    ['forge:tools/knives', 'farmersdelight:tools/knives', 'bakery:knives', 'ends_delight:dragon_loot_tools'].forEach(tag => knife_tags(tag))
+    
     e.add('supplementaries:throwable_bricks', 'farm_and_charm:rotten_plum_tomato')
 })
 
